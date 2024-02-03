@@ -1,0 +1,6 @@
+name: click
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+prefix: /Users/muhammadrasyadcaesarardhi/miniconda3/envs/click
