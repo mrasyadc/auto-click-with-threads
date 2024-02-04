@@ -37,8 +37,8 @@ def on_press(key):
             auto_clicker.start_auto_click_thread()
     except AttributeError:
         if key == keyboard.Key.esc:
-          print('auto click stopped')
-          auto_clicker.stop_auto_click_thread()
+            print('auto click stopped')
+            auto_clicker.stop_auto_click_thread()
 
 def on_release(key):
     pass
