@@ -15,7 +15,7 @@ class AutoClicker:
 
             # Perform a mouse click at the current position
             pyautogui.click(x, y)
-
+            
             # Wait for 2 seconds before the next click
             time.sleep(2)
 
